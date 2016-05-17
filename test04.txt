@@ -1,0 +1,67 @@
+package gouZ;
+
+public class gouZDemo {
+   private int age;
+      private String name;
+      	/*
+	    * gouZDemo(){
+	        * }   默认空参数的构造函数
+		    */
+		    gouZDemo()
+		    {
+		        	System.out.println("A:"+"age="+age+"\n"+"name="+name);
+				        cry();     
+					}
+
+					gouZDemo(int a)
+					{
+						age = a ;
+							System.out.println("B:"+"age="+age+"\n"+"name="+name);
+								cry(); 
+								}
+
+								gouZDemo(int a, String b)
+								{
+									age = a;
+										name = b;
+											System.out.println("C:"+"age="+age+"\n"+"name="+name);
+												cry(); 
+												}
+
+												public void setName(String b){
+													name = b;
+													}
+													public String getName(){
+														return name;
+														}
+
+														void cry(){
+															System.out.println("Crying...");
+															}
+															}
+
+
+
+
+
+
+
+
+															package gouZ;
+
+															public class gouZDemo01 {
+																public static void main(String[] args) {
+																		gouZDemo lgy1 = new gouZDemo();
+																				lgy1.cry();
+																						lgy1.cry();
+																								
+																										gouZDemo lgy2 = new gouZDemo(21);
+																												
+																														
+																																gouZDemo lgy3 = new gouZDemo(21,"liangguangyu");
+																																		lgy3.setName("jjd");
+																																				lgy3.setName("DJJ");
+																																						System.out.println(lgy3.getName());
+																																							}
+
+																																							}
